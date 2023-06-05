@@ -53,7 +53,7 @@ function SignIn() {
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Logi sisse googlega!</button>
-      <p>Teretulemast paremasse chat appi kui snapchat!</p>
+      <p>Teretulemast paremasse chat appi kui snapchat</p>
     </>
   )
 
