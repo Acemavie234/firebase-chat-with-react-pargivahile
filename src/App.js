@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <h1>Pargichat</h1>
         <SignOut />
       </header>
 
@@ -61,7 +61,7 @@ function SignIn() {
 
 function SignOut() {
   return auth.currentUser && (
-    <button className="sign-out" onClick={() => auth.signOut()}>Sign Out</button>
+    <button className="sign-out" onClick={() => auth.signOut()}>Logi välja</button>
   )
 }
 
