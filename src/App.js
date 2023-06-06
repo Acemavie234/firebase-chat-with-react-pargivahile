@@ -25,7 +25,7 @@ const analytics = firebase.analytics();
 
 
 function App() {
-
+dummy.current.scrollIntoView;
   const [user] = useAuthState(auth);
 
   return (
